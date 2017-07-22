@@ -1,5 +1,5 @@
 {
-  "name": "smvcJS",
+  "name": "sMVC.js",
   "version": "1.0.0",
   "description": "Simple MVC with Nodejs",
   "main": "server.js",
