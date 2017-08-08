@@ -1,8 +1,8 @@
 
-<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"></p>
+<p align="center"><img style="height:200px;width:200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"></p>
 
 <p align="center">
-    <a href="https://aldolemos.com">About Me</a>
+    <a target="_blank" href="https://aldolemos.com">About Me</a>
     <a href="https://algoaddicted.blogspot.com">Blog</a>
     <a href="https://twitter.com/ar_lemos">Twitter</a>
 </p>
