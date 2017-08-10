@@ -1,3 +1,3 @@
 exports.render = function(req, res) {
-    res.send('Hello sMVC.js');
+    res.send('Hello nice sMVC.js');
 };
