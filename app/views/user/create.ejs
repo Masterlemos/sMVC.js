@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <style>
+        .ipt-text {
+            margin-top: 5px;
+            min-height: 30px;
+        }
+
+    </style>
+  </head>
+  <body>
+   
+    <h2><%= title %></h2>
+    <form method="POST" action="/users">
+        <input placeholder="First Name" class="ipt-text" type="text" name="firstName" /> <br />
+        <input placeholder="Last Name"  class="ipt-text" type="text" name="lastName" /><br />
+        <input placeholder="E-Mail" class="ipt-text" type="email" name="email" /><br />
+        <input placeholder="User Name" class="ipt-text" type="text" name="username" /><br />
+        <input placeholder="Password" class="ipt-text" type="password" name="password" /><br />
+
+        <input type="submit" value="Create" />
+    </form>
+  </body>
+</html>

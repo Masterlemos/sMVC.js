@@ -1,13 +1,13 @@
 var User = require('mongoose').model('User');
 var actions = {};
 
-actions.index = function(req, res) {
-    res.render('index', {
-        title: 'User list page'
+actions.create = function(req, res) {
+    res.render('user/create', {
+        title: 'Create User Page'
     });
 };
 
-actions.create = function(req, res, next) {
+actions.store = function(req, res, next) {
     var user = new User(req.body);
 
     user.save(function(err) {
