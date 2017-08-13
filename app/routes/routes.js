@@ -4,6 +4,8 @@ module.exports = function(app) {
 
     app.get('/', index.render);
 
-    app.get('/users', userController.actions.create);
-    app.route('/users').post(userController.actions.store);
+    app.get('/users/create', userController.create);
+	app.get('/users', userController.index);
+
+	app.post('/users', userController.store);
 };
