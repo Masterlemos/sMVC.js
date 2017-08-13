@@ -8,7 +8,9 @@
     "compression": "^1.7.0",
     "ejs": "^2.5.7",
     "express": "^4.15.3",
+    "express-session": "^1.15.5",
     "method-override": "^2.3.9",
+    "mongoose": "^4.11.6",
     "morgan": "^1.8.2"
   },
   "devDependencies": {},
@@ -16,6 +18,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aldo Lemos",
-  "authorEmail":"aldorlemos@gmail.com",
-  "license": "MIT"
+  "authorEmail": "aldorlemos@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Masterlemos/sMVC.js.git"
+  }
 }
