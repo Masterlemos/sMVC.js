@@ -8,4 +8,10 @@ module.exports = function(app) {
 	app.get('/users', userController.index);
 
 	app.post('/users', userController.store);
+
+	app.route('/users/:userId')
+        .get(userController.show)
+        .put(userController.update)
+        .delete(userController.delete);
+     app.param('userId', userController.readMiddleware);
 };
